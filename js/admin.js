@@ -17,6 +17,7 @@ setTimeout(function(){
     form.classList.remove("hidden"); 
     button.classList.remove("hidden"); 
     header.classList.remove("hidden");
+    //
     header.style.backgroundColor="white";
 },2500);
 
