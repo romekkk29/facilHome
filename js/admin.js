@@ -6,6 +6,7 @@ let form=document.querySelector("form");
 let button=document.querySelector("button");
 let header=document.querySelector("header");
 
+
 //pagina de inicio con TIMEOUT
 setTimeout(function(){
     body.classList.remove("setTime");
@@ -15,6 +16,7 @@ setTimeout(function(){
 setTimeout(function(){
     form.classList.remove("hidden"); 
     button.classList.remove("hidden"); 
+    header.classList.remove("hidden");
     header.style.backgroundColor="white";
 },2500);
 
